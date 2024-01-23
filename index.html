@@ -12,15 +12,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        .text-primary1{
+            color:#ff4240;
+        }
+        .text-primary2{
+            color:#49d293;
+        }
+        .text-primary3{
+            color:#ffb546;
+        }
+        .text-primary4{
+            color:#4c8df1;
+        }
 
+        .btn{
+        color: var(#FF4240);
+        }
+
+
+
+    </style>
 
 </head>
 <body>
+    <div class="container mx-auto">
     <header>
         <nav></nav>
     </header>
     <main>
-        <section class=" container mx-auto my-10">
+        <section>
             <div class="carousel w-full">
                 <!-- slide 1 -->
                 <div id="slide1" class="carousel-item relative w-full">
@@ -58,7 +79,114 @@
             
             </div>
         </section>
+
+        <!-- Professional hockey club -->
+        <section class="mt-6">
+            <hr style="border: 1px dashed #13131233;" />
+            <div class="mt-10 mb-10 text-center ">
+                <h1 class="text-2xl lg:text-4xl font-extrabold">Professional Hockeys Club</h1>
+                <p class="text-sm lg:text-xl font-medium mt-8 w-3/4 lg:w-2/4 mx-auto text-[#13131299]">The hockey club, a vibrant and dynamic community, serves as a rallying point for enthusiasts of the sport.</p>
+            </div>
+            <hr style="border: 1px dashed #13131233;" />
+        </section>
+
+        <!-- Progress -->
+        <section class="mt-9 mb-20 pb-10 pt-10">
+
+            <div class="grid grid-cols-1 gap-4 lg:grid-cols-4">
+                <div class="card w-96 bg-base-100">
+                    <div class="radial-progress text-primary1 items-center text-center mx-auto " style="--value:87;" role="progressbar">87%</div>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-[#131318] text-xl">Prayer Facility</h2>
+                      <p class="text-base text-[#13131299] font-normal">The club has a great facility of Praying</p>
+                      
+                    </div>
+                </div>
+
+                <div class="card w-96 bg-base-100">
+                    <div class="radial-progress text-primary2 items-center text-center mx-auto " style="--value:95;" role="progressbar">95%</div>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-[#131318] text-xl">Prayer Facility</h2>
+                      <p class="text-base text-[#13131299] font-normal">The club has a great facility of Praying</p>
+                      
+                    </div>
+                </div>
+
+                <div class="card w-96 bg-base-100">
+                    <div class="radial-progress text-primary3 items-center text-center mx-auto " style="--value:90;" role="progressbar">90%</div>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-[#131318] text-xl">Prayer Facility</h2>
+                      <p class="text-base text-[#13131299] font-normal">The club has a great facility of Praying</p>
+                      
+                    </div>
+                </div>
+
+                <div class="card w-96 bg-base-100">
+                    <div class="radial-progress text-primary4 items-center text-center mx-auto " style="--value:80;" role="progressbar">80%</div>
+                    <div class="card-body items-center text-center">
+                      <h2 class="card-title text-[#131318] text-xl">Prayer Facility</h2>
+                      <p class="text-base text-[#13131299] font-normal">The club has a great facility of Praying</p>
+                      
+                    </div>
+                </div>
+
+
+
+                
+                
+            </div>
+        </section>
+
+        <!-- Program section -->
+        <hr style="border: 1px dashed #13131233;" />
+        <section class="">
+            
+            <div class="pt-10 mb-5 pb-10">
+                <h1 class="text-2xl lg:text-4xl text-center font-extrabold mt-9">Program Section</h1>
+                <p class="text-sm lg:text-xl text-center font-medium mt-8 w-3/4 lg:w-2/4 mx-auto text-[#13131299]">The club has a different types of opportunity for all ages. Junior program, Teenage program also Professional program.</p>
+            </div>
+                <hr style="border: 1px dashed #13131233;" />
+            <!-- program grid -->
+
+            <div class="grid grid-cols-1 gap-4 grid-rows-2 lg:grid-cols-2 mt-20">
+               <!-- grid 1 -->
+                <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/2.png)] bg-no-repeat h-96 rounded-3xl bg-cover">
+                    <div class=" pl-10  pr-10 my-28  text-left ">
+                        <h2 class="text-3xl font-extrabold text-white mb-6">Junior Program</h2>
+                        <p class="text-base text-white mb-6 ">
+                            Participation in hockey can offer numerous benefits for junior kids, encompassing physical, mental, and social aspects of their development. 
+                        </p>
+                        <button class="btn btn-primary">Register Now</button>
+                    </div>
+                </div>
+                <!-- grid 2 -->
+                <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/3.png)] bg-no-repeat h-96 rounded-3xl bg-cover">
+                    <div class=" pl-10  pr-10 my-28  text-left">
+                        <h2 class="text-3xl font-extrabold text-white mb-6">Teenage Program</h2>
+                        <p class="text-base text-white mb-6 ">
+                            Participation in hockey can offer numerous benefits for junior kids, encompassing physical, mental, and social aspects of their development. 
+                        </p>
+                        <button class="btn btn-primary">Register Now</button>
+                    </div>
+                </div>
+                <!-- grid 3 -->
+                <div class="bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/4.png)] bg-no-repeat  rounded-3xl bg-cover col-span-2 row-span-2">
+                    <div class=" pl-10  pr-10 my-36">
+                        <h2 class="text-3xl font-extrabold text-white mb-6">Professional Program</h2>
+                        <p class="text-base text-white mb-6 w-2/4 ">
+                            Participation in hockey can offer numerous benefits for junior kids, encompassing physical, mental, and social aspects of their development. 
+                        </p>
+                        <button class="btn btn-primary">Register Now</button>
+                    </div>
+                </div>
+                
+                
+
+            </div>
+
+        </section>
     </main>
+    </div>
     <footer>
 
     </footer>
